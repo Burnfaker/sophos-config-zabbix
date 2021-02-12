@@ -8,6 +8,8 @@ tested Zabbix Server = 4.0.2
 """
 
 import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 import requests
 import logging
 import urllib3
